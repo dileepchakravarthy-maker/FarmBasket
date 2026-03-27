@@ -1,0 +1,52 @@
+.bg-primary {
+  background-color: var(--color-primary);
+  color: white;
+}
+
+.text-white {
+  color: white !important;
+}
+
+.text-white-opacity {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.delivery-grid {
+  margin-top: var(--spacing-8);
+}
+
+.delivery-card {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-8);
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.delivery-card:hover {
+  transform: translateY(-5px);
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.delivery-icon {
+  margin-bottom: var(--spacing-4);
+  color: white;
+  opacity: 0.9;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+}
+
+.mt-2 {
+  margin-top: var(--spacing-2);
+}
+
+.delivery-desc {
+  color: rgba(255, 255, 255, 0.8);
+  margin-top: var(--spacing-3);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
